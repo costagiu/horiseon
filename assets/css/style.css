@@ -1,13 +1,16 @@
+/* */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This is the backgound color of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Name of the comany and navigation*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,19 @@ body {
     color: #ffffff;
 }
 
+/* */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*This highlights the color of seo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*This defines the positioning of the nav */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,46 +38,55 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* no numbering*/
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* The links are on one line*/
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This defines the color for all links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Font size for all paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Define dimetions of the image*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
 }
 
+/*Puts the imges on the left side */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Puts the images on the right side*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Big section of the left*/
 .offerings {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Shows the benefits on the right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,22 +98,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Measurments for one benefit */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Heading of the benefit*/
 .benefit h2 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Image in the benefit */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Individual offering*/
 .offering {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,15 +127,18 @@ p {
     color: #ffffff;
 }
 
+/* Max height of the image*/
 .offering img {
     max-height: 200px;
 }
 
+/*Heading of the offering */
 .offering h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer of the page*/
 .footer {
     padding: 30px;
     clear: both;
@@ -124,6 +146,7 @@ p {
     text-align: center;
 }
 
+/*Header of the footer */
 .footer h2 {
     font-size: 20px;
 }
