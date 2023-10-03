@@ -10,6 +10,8 @@ I made the website more accessible by using semantic elements. I consolidated th
 
 I definitely learned the importance of accessibility and how to work on different platforms (Visual Studio Code, the terminal, GitHub), and about making consistent changes and checking if everything aligns with the main code.
 
+The deployed version you can find it here: https://costagiu.github.io/horiseon
+
 ## Usage
 
   
